@@ -9,70 +9,66 @@ redirect_from:
 ---
 <h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> Welcome to my Homepage!</h1>
 
-Hi! I work on AI, survive on instant noodles, and submit papers 3 minutes before deadlines.
-
-Feel free to reach out if you are interested in collaboration or potential opportunities.
+I am an incoming Ph.D. student at the College of Computing and Data Science, Nanyang Technological University, supervised by Prof. Tianwei Zhang. My research interests lie in efficient AI algorithms and systems. Before that, I received my B.Sc. from the Southern University of Science and Technology (SUSTech).
 
 News
 ---------------
 <div class="news-box">
   <ul class="news-list">
-
-<li><span class="news-date"><em>2026.10</em></span> 🚀🚀 Submitted a paper 3 minutes before the deadline.</li>
-
-<li><span class="news-date"><em>2025.12</em></span> 😅😅 Unexpectedly got fired.</li>
-<li><span class="news-date"><em>2026.09</em></span> 📉📉 My GPU resigned before I did.</li>
-<li><span class="news-date"><em>2026.08</em></span> ☕☕ Survived on coffee for 72 consecutive hours.</li>
-
-<li><span class="news-date"><em>2026.05</em></span> 🎉🎉 I begin my internship at Weijia.</li>
-<li><span class="news-date"><em>2025.12</em></span> 😅😅 Unexpectedly got fired.</li>
-
-<li><span class="news-date"><em>2026.07</em></span> 🎉🎉 Promoted from intern to “experienced intern”.</li>
-<li><span class="news-date"><em>2026.06</em></span> 🤡🤡 Accidentally deleted the production database.</li>
-
-<li><span class="news-date"><em>2026.05</em></span> 🎉🎉 I begin my internship at Haidilao.</li>
-<li><span class="news-date"><em>2025.12</em></span> 😅😅 Unexpectedly got fired.</li>
-
-<li><span class="news-date"><em>2024.10</em></span> 🎉🎉 I began my studies at MIT.</li>
+<li><span class="news-date"><em>2026.04</em></span> 🎉🎉 One first-author paper accepted by ICML26, see you in Seoul.</li>
+<li><span class="news-date"><em>2025.08</em></span> 🎉🎉 I began my full-time RA at NTU.</li>
   </ul>
 </div>
 
-Experience
+Education
 --------------
 
 <div class="experience-container">
 
   <div class="experience-card">
-      <img src="images/haidilao.png" alt="Haidilao logo" class="experience-logo">
+      <img src="images/NTU.png" alt="NTU" class="experience-logo">
       <div class="experience-info">
-          <strong>Haidilao</strong><br>
-          <em>2026.05 - Present</em><br>
-          LLM Engineer Intern advised by <a href="https://wd7ang.github.io/"><em>Weidong Tang</em></a><br>
-          <span style="color:#888;">Main contribution: teaching hotpot robots to understand human emotions.</span>
+          <strong>Nanyang Technological University</strong><br>
+          <em>2026.08 - </em><br>
+          Full-time Ph.D. at CCDS
       </div>
   </div>
 
   <div class="experience-card">
-      <img src="images/weijia.png" alt="Weijia logo" class="experience-logo">
+      <img src="images/SUSTech.png" alt="SUSTech" class="experience-logo">
       <div class="experience-info">
-          <strong>Weijia</strong><br>
-          <em>2026.01 - 2026.03</em><br>
-          Machine Learning Intern advised by <a href="https://selen-suyue.github.io/"><em>Yue Su</em></a><br>
-          <span style="color:#888;">Successfully reduced GPU happiness by 97%.</span>
+          <strong>SUSTech</strong><br>
+          <em>2021.09 - 2025.06</em><br>
+          Major in Data Science and Big Data Technology
       </div>
   </div>
-
-  <div class="experience-card">
-      <img src="images/mit.png" alt="MIT logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>Massachusetts Institute of Technology</strong><br>
-          <em>2023.09 - Present</em><br>
-          Rank 5/99, B.E at <a href="https://ste.xidian.edu.cn/"><em>School of Telecommunication Engineering</em></a><br>
-          <span style="color:#888;">Research interests include large models, multimodal learning, and surviving deadlines.</span>
-      </div>
-  </div>
+  
 </div>
 
+Other Experience
+--------------
+
+<div class="experience-container">
+
+  <div class="experience-card">
+      <img src="images/NTU.png" alt="NTU" class="experience-logo">
+      <div class="experience-info">
+          <strong>Nanyang Technologicai University</strong><br>
+          <em>2026.05 - Present</em><br>
+          Research Assistant at Aumovio-NTU Corporate Lab
+      </div>
+  </div>
+
+  <div class="experience-card">
+      <img src="images/THU.png" alt="thu" class="experience-logo">
+      <div class="experience-info">
+          <strong>SIGS, Tsinghua University</strong><br>
+          <em>2024.08 - 2025.02</em><br>
+          Research Intern at MMLab @ SIGS, Tsinghua University
+      </div>
+  </div>
+
+</div>
 
 Publications
 --------------
@@ -85,51 +81,30 @@ Publications
 <div class="publication-card" data-category="all"> 
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
-      <img src="images/sleep.png" alt="wog" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
+      <img src="images/DSB.png" alt="dsb" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
     </div> 
     <div>
-      <strong>SleepFormer: Towards Fully Autonomous Deadline Extension via Large Language Models</strong><br>
+      <strong>DSB: Dynamic Sliding Block Scheduling for Diffusion LLMs</strong><br>
       <i style="font-size: 13px;">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
+        <a href="" target="_blank">
+          <strong>Lizhuo Luo*</strong>
         </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
+        <a href="" target="_blank">
+          <strong>Shenggui Li*</strong>
+        </a>,
+        <a href="" target="_blank">
+          <strong>Yonggang Wen</strong>
+        </a>,
+        <a href="" target="_blank">
+          <strong>Tianwei Zhang&dagger</strong>
         </a>.
       </i><br> 
-      We present SleepFormer, the first framework capable of automatically generating convincing excuses for missed deadlines, skipped meetings, and unfinished experiments.
+      Dynamic Sliding Block (DSB), a training-free block scheduling method that uses a sliding block with a dynamic size to overcome the rigidity of the naive block; DSB Cache, a training-free KV-cache mechanism tailored to DSB, improves both generation quality and inference efficiency for dLLMs.
       <br> 
-      <b><i style="color:#83a1c7;">ACL 3026 Oral &nbsp;
+      <b><i style="color:#83a1c7;">ICML 2026 &nbsp;
       </i></b> 
-      <a href=""><em>[arXiv]</em></a> 
-      <a href=""><em>[code]</em></a> 
-    </div>
-  </div> 
-</div>
-
-
-<div class="publication-card" data-category="all"> 
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
-      <img src="images/gpu.png" alt="wog" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
-    </div> 
-    <div>
-      <strong>Are GPUs Emotionally Stable? A Large-Scale Empirical Study Under 24/7 Training Stress</strong><br>
-      <i style="font-size: 13px;">
-        NVIDIA RTX 9090*,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
-        </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
-        </a>.
-      </i><br> 
-      We conduct the first psychological evaluation of modern GPUs under extreme training conditions. Results reveal that 87% of devices exhibit symptoms of burnout after repeated “just one more epoch” requests.
-      <br> 
-      <b><i style="color:#83a1c7;">ICLR 3026 &nbsp;
-      </i></b> 
-      <a href=""><em>[arXiv]</em></a> 
-      <a href=""><em>[code]</em></a> 
+      <a href="https://arxiv.org/abs/2602.05992"><em>[arXiv]</em></a> 
+      <a href="https://github.com/lizhuo-luo/DSB"><em>[code]</em></a> 
     </div>
   </div> 
 </div>
@@ -137,25 +112,39 @@ Publications
 <div class="publication-card" data-category="all"> 
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
-      <img src="images/noodle.png" alt="wog" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
+      <img src="images/DICE.png" alt="dice" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
     </div> 
     <div>
-      <strong>Instant Noodles as a Scalable Training Infrastructure for Graduate Students</strong><br>
+      <strong>DSB: Dynamic Sliding Block Scheduling for Diffusion LLMs</strong><br>
       <i style="font-size: 13px;">
-        Noodles&Dagger;,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
+        <a href="" target="_blank">
+          <strong>Jiajun Luo*</strong>
         </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
+        <a href="" target="_blank">
+          <strong>Lizhuo Luo*</strong>
+        </a>,
+        <a href="" target="_blank">
+          <strong>Jianru Xu*</strong>
+        </a>,
+        <a href="" target="_blank">
+          <strong>Jiajun Song</strong>
+        </a>,
+        <a href="" target="_blank">
+          <strong>Rongwei Lu</strong>
+        </a>,
+        <a href="" target="_blank">
+          <strong>Chen Tang</strong>
+        </a>,
+        <a href="" target="_blank">
+          <strong>Zhi Wang&dagger</strong>
         </a>.
       </i><br> 
-      We introduce Noodle-Scaling Law, showing that research productivity increases logarithmically with instant noodle consumption before collapsing catastrophically at 3 a.m.
+      DICE, an asynchronous expert-parallel framework for MoE-based diffusion models that overlaps communication and computation to realize faster, more scalable multi-GPU inference, achieving up to 1.26× speedup with minimal quality impact.
       <br> 
-      <b><i style="color:#83a1c7;">ICML 3026 &nbsp;
+      <b><i style="color:#83a1c7;">ICCV 2025 &nbsp;
       </i></b> 
-      <a href=""><em>[arXiv]</em></a> 
-      <a href=""><em>[code]</em></a> 
+      <a href="https://arxiv.org/abs/2411.16786"><em>[arXiv]</em></a> 
+      <a href="https://github.com/Cobalt-27/DICE"><em>[code]</em></a> 
     </div>
   </div> 
 </div>
@@ -166,102 +155,105 @@ Publications
 <div id="full-publications" class="publication-view" data-publication-view="list" hidden>
   <ul class="full-publication-list">
     <li>
-      <span class="pub-list-badge">ACL 3030</span>
-      <span class="pub-list-title">SleepFormer v5: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
+      <span class="pub-list-badge">ICML 2026</span>
+      <span class="pub-list-title">DSB: Dynamic Sliding Block Scheduling for Diffusion LLMs</span><br>
       <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
+        <a href="" target="_blank">
+          <strong>Lizhuo Luo*</strong>
         </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
+        <a href="" target="_blank">
+          <strong>Shenggui Li*</strong>
+        </a>,
+        <a href="" target="_blank">
+          <strong>Yonggang Wen</strong>
+        </a>,
+        <a href="" target="_blank">
+          <strong>Tianwei Zhang&dagger</strong>
         </a>.
       </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
+      <span class="pub-list-note"></span>
+      <span class="pub-list-links"><a href="https://arxiv.org/abs/2602.05992">[arXiv]</a><a href="https://github.com/lizhuo-luo/DSB">[code]</a></span>
     </li>
     <li>
-      <span class="pub-list-badge">ACL 3029</span>
-      <span class="pub-list-title">SleepFormer v4: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
+      <span class="pub-list-badge">Arxiv 2026</span>
+      <span class="pub-list-title">DAWN: Dependency-Aware Fast Inference for Diffusion LLMs</span><br>
       <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
+        <a href="" target="_blank">
+          <strong>Lizhuo Luo</strong>
         </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
+        <a href="" target="_blank">
+          <strong>Zhuoran Shi</strong>
+        </a>,
+        <a href="" target="_blank">
+          <strong>Jiajun Luo</strong>
+        </a>,
+        <a href="" target="_blank">
+          <strong>Zhi Wang</strong>
+        </a>,
+        <a href="" target="_blank">
+          <strong>Shen Ren</strong>
+        </a>,
+        <a href="" target="_blank">
+          <strong>Wenya Wang</strong>
+        </a>,
+        <a href="" target="_blank">
+          <strong>Tianwei Zhang&dagger</strong>
         </a>.
       </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
+      <span class="pub-list-note"></span>
+      <span class="pub-list-links"><a href="https://arxiv.org/abs/2602.06953">[arXiv]</a><a href="https://github.com/lizhuo-luo/DAWN">[code]</a></span>
     </li>
     <li>
-      <span class="pub-list-badge">ACL 3028</span>
-      <span class="pub-list-title">SleepFormer v3: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
+      <span class="pub-list-badge">Arxiv 2025</span>
+      <span class="pub-list-title">FlowSpec: Continuous Pipelined Speculative Decoding for Efficient Distributed LLM Inference</span><br>
       <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
+        <a href="" target="_blank">
+          <strong>Xing Liu*</strong>
         </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
+        <a href="" target="_blank">
+          <strong>Lizhuo Luo*</strong>
+        </a>,
+        <a href="" target="_blank">
+          <strong>Ming Tang&dagger</strong>
+        </a>,
+        <a href="" target="_blank">
+          <strong>Chao Huang</strong>
+        </a>,
+        <a href="" target="_blank">
+          <strong>Xu Chen</strong>
         </a>.
       </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
+      <span class="pub-list-note">.</span>
+      <span class="pub-list-links"><a href="https://arxiv.org/abs/2507.02620">[arXiv]</a><a href="https://github.com/Leosang-lx/FlowSpec">[code]</a></span>
     </li>
     <li>
-      <span class="pub-list-badge">ACL 3027</span>
-      <span class="pub-list-title">SleepFormer v2: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
+      <span class="pub-list-badge">ICCV 2025</span>
+      <span class="pub-list-title">DICE: Staleness-Centric Optimizations for Parallel Diffusion MoE Inference</span><br>
       <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
+        <a href="" target="_blank">
+          <strong>Jiajun Luo*</strong>
         </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
+        <a href="" target="_blank">
+          <strong>Lizhuo Luo*</strong>
+        </a>,
+        <a href="" target="_blank">
+          <strong>Jianru Xu*</strong>
+        </a>,
+        <a href="" target="_blank">
+          <strong>Jiajun Song</strong>
+        </a>,
+        <a href="" target="_blank">
+          <strong>Rongwei Lu</strong>
+        </a>,
+        <a href="" target="_blank">
+          <strong>Chen Tang</strong>
+        </a>,
+        <a href="" target="_blank">
+          <strong>Zhi Wang&dagger</strong>
         </a>.
       </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ACL 3026</span>
-      <span class="pub-list-title">SleepFormer: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ICLR 3026</span>
-      <span class="pub-list-title">Are GPUs Emotionally Stable? A Large-Scale Empirical Study Under 24/7 Training Stress</span><br>
-      <span class="pub-list-authors">
-        NVIDIA RTX 9090*,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
-        </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ICLR 3026</span>
-      <span class="pub-list-title">Instant Noodles as a Scalable Training Infrastructure for Graduate Students</span><br>
-      <span class="pub-list-authors">
-        Noodles&Dagger;,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
-        </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
+      <span class="pub-list-note"></span>
+      <span class="pub-list-links"><a href="https://arxiv.org/abs/2411.16786">[arXiv]</a><a href=" https://github.com/Cobalt-27/DICE">[code]</a></span>
     </li>
   </ul>
 </div>
@@ -270,7 +262,7 @@ Publications
 <script src="assets/js/pub_media_rotator.js"></script>
 
 
-Projects
+<!-- Projects
 --------
 <div class="project-card" data-category="project"> 
   <div style="display: flex; align-items: center;">
@@ -289,33 +281,29 @@ Projects
       <a href=""><em>[code]</em></a> 
     </div>
   </div> 
-</div>
+</div> -->
 
 
 Awards
 --------
-- *3026.01*, Successfully survived 17 consecutive paper deadlines without touching grass.
-- *3025.09*, Best Excuse Generation Award, SleepFormer Research Group.
-- *3025.06*, Outstanding Contributor to Instant Noodle Consumption Efficiency.
-- *3024.12*, GPU Emotional Damage Scholarship (Full Funding).
-- *3024.08*, Ranked Top 0.1% Worldwide in “I’ll Fix It Tomorrow”.
+- *2025*, Outstanding Graduation Thesis.
 
 
 
-Services
+<!-- Services
 --------
 - *3026.06 – Present*, Chief Coffee Consumption Officer, Midnight Research Lab.
 - *3026.01 – Present*, Full-time Debugger of Problems Created by Myself.
 - Reviewer for Journal of Unfinished Projects.
 - Area Chair for Conference on Last-Minute Submissions (CLMS).
-- Volunteer Therapist for Burned-out GPUs.
+- Volunteer Therapist for Burned-out GPUs. -->
 
 
 
-Talks
+<!-- Talks
 --------
 - *3026.07*, “How to Finish a Paper 3 Minutes Before Deadline.”
 - *3026.05*, “Large Language Models and Large Amounts of Caffeine.”
 - *3025.11*, “On the Emotional Stability of GPUs Under Extreme Stress.”
 - *3025.08*, “Instant Noodles as Scalable Research Infrastructure.”
-- *3025.03*, “Sleep is Temporary, Camera-Ready is Forever.”
+- *3025.03*, “Sleep is Temporary, Camera-Ready is Forever.” -->

@@ -1,24 +1,24 @@
 locale                   : "en-US"
-title                    : "WowPage"
+title                    : ""
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Lizhuo Luo"
 description              : &description "A clean academic homepage template."
 url                      : ""
 baseurl                  : ""
 repository               : ""
 
 author:
-  avatar           : "1.png"
-  name             : "Your Name"
-  pronouns         :
-  bio              : "Student and researcher."
-  location         : "City, Country"
-  employer         : "Institution or Company"
+  avatar           : "ai_llz.png"
+  name             : "Lizhuo Luo"
+  pronouns         : "He/Him"
+  bio              : 
+  location         : "Singapore"
+  employer         : "Nanyang Technological University"
   uri              :
-  email            : "name@example.com"
+  email            : "lizhuoluo001@gmail.com"
 
   arxiv            :
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?user=RVp_u1MAAAAJ&hl=zh-CN"
   impactstory      :
   orcid            :
   semantic         :
@@ -28,7 +28,7 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
-  github           :
+  github           : "https://github.com/lizhuo-luo"
   kaggle           :
   stackoverflow    :
 
