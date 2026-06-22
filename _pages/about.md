@@ -89,18 +89,10 @@ Publications
     <div>
       <strong>DSB: Dynamic Sliding Block Scheduling for Diffusion LLMs</strong><br>
       <i style="font-size: 13px;">
-        <a href="" target="_blank">
-          <strong>Lizhuo Luo*</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Shenggui Li*</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Yonggang Wen</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Tianwei Zhang&dagger;</strong>
-        </a>.
+        <strong style="color:#1EB6B3;">Lizhuo Luo*</strong>,
+        <strong style="color:#1EB6B3;">Shenggui Li*</strong>,
+        <strong style="color:#1EB6B3;">Yonggang Wen</strong>,
+        <strong style="color:#1EB6B3;">Tianwei Zhang&dagger;</strong>.
       </i><br> 
       Dynamic Sliding Block (DSB), a training-free block scheduling method that uses a sliding block with a dynamic size to overcome the rigidity of the naive block; DSB Cache, a training-free KV-cache mechanism tailored to DSB, improves both generation quality and inference efficiency for dLLMs.
       <br> 
@@ -120,27 +112,13 @@ Publications
     <div>
       <strong>DICE: Staleness-Centric Optimizations for Parallel Diffusion MoE Inference</strong><br>
       <i style="font-size: 13px;">
-        <a href="" target="_blank">
-          <strong>Jiajun Luo*</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Lizhuo Luo*</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Jianru Xu*</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Jiajun Song</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Rongwei Lu</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Chen Tang</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Zhi Wang&dagger;</strong>
-        </a>.
+        <strong style="color:#1EB6B3;">Jiajun Luo*</strong>,
+        <strong style="color:#1EB6B3;">Lizhuo Luo*</strong>,
+        <strong style="color:#1EB6B3;">Jianru Xu*</strong>,
+        <strong style="color:#1EB6B3;">Jiajun Song</strong>,
+        <strong style="color:#1EB6B3;">Rongwei Lu</strong>,
+        <strong style="color:#1EB6B3;">Chen Tang</strong>,
+        <strong style="color:#1EB6B3;">Zhi Wang&dagger;</strong>.
       </i><br> 
       DICE, an asynchronous expert-parallel framework for MoE-based diffusion models that overlaps communication and computation to realize faster, more scalable multi-GPU inference, achieving up to 1.26× speedup with minimal quality impact.
       <br> 
@@ -161,18 +139,10 @@ Publications
       <span class="pub-list-badge">ICML 2026</span>
       <span class="pub-list-title">DSB: Dynamic Sliding Block Scheduling for Diffusion LLMs</span><br>
       <span class="pub-list-authors">
-        <a href="" target="_blank">
-          <strong>Lizhuo Luo*</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Shenggui Li*</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Yonggang Wen</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Tianwei Zhang&dagger;</strong>
-        </a>.
+        <strong style="color:#1EB6B3;">Lizhuo Luo*</strong>,
+        <strong style="color:#1EB6B3;">Shenggui Li*</strong>,
+        <strong style="color:#1EB6B3;">Yonggang Wen</strong>,
+        <strong style="color:#1EB6B3;">Tianwei Zhang&dagger;</strong>.
       </span>
       <span class="pub-list-note"></span>
       <span class="pub-list-links"><a href="https://arxiv.org/abs/2602.05992">[arXiv]</a><a href="https://github.com/lizhuo-luo/DSB">[code]</a></span>
@@ -181,27 +151,13 @@ Publications
       <span class="pub-list-badge">Arxiv 2026</span>
       <span class="pub-list-title">DAWN: Dependency-Aware Fast Inference for Diffusion LLMs</span><br>
       <span class="pub-list-authors">
-        <a href="" target="_blank">
-          <strong>Lizhuo Luo</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Zhuoran Shi</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Jiajun Luo</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Zhi Wang</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Shen Ren</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Wenya Wang</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Tianwei Zhang&dagger;</strong>
-        </a>.
+        <strong style="color:#1EB6B3;">Lizhuo Luo</strong>,
+        <strong style="color:#1EB6B3;">Zhuoran Shi</strong>,
+        <strong style="color:#1EB6B3;">Jiajun Luo</strong>,
+        <strong style="color:#1EB6B3;">Zhi Wang</strong>,
+        <strong style="color:#1EB6B3;">Shen Ren</strong>,
+        <strong style="color:#1EB6B3;">Wenya Wang</strong>,
+        <strong style="color:#1EB6B3;">Tianwei Zhang&dagger;</strong>.
       </span>
       <span class="pub-list-note"></span>
       <span class="pub-list-links"><a href="https://arxiv.org/abs/2602.06953">[arXiv]</a><a href="https://github.com/lizhuo-luo/DAWN">[code]</a></span>
@@ -210,21 +166,11 @@ Publications
       <span class="pub-list-badge">Arxiv 2025</span>
       <span class="pub-list-title">FlowSpec: Continuous Pipelined Speculative Decoding for Efficient Distributed LLM Inference</span><br>
       <span class="pub-list-authors">
-        <a href="" target="_blank">
-          <strong>Xing Liu*</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Lizhuo Luo*</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Ming Tang&dagger;</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Chao Huang</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Xu Chen</strong>
-        </a>.
+        <strong style="color:#1EB6B3;">Xing Liu*</strong>,
+        <strong style="color:#1EB6B3;">Lizhuo Luo*</strong>,
+        <strong style="color:#1EB6B3;">Ming Tang&dagger;</strong>,
+        <strong style="color:#1EB6B3;">Chao Huang</strong>,
+        <strong style="color:#1EB6B3;">Xu Chen</strong>.
       </span>
       <span class="pub-list-note"></span>
       <span class="pub-list-links"><a href="https://arxiv.org/abs/2507.02620">[arXiv]</a><a href="https://github.com/Leosang-lx/FlowSpec">[code]</a></span>
@@ -233,27 +179,13 @@ Publications
       <span class="pub-list-badge">ICCV 2025</span>
       <span class="pub-list-title">DICE: Staleness-Centric Optimizations for Parallel Diffusion MoE Inference</span><br>
       <span class="pub-list-authors">
-        <a href="" target="_blank">
-          <strong>Jiajun Luo*</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Lizhuo Luo*</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Jianru Xu*</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Jiajun Song</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Rongwei Lu</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Chen Tang</strong>
-        </a>,
-        <a href="" target="_blank">
-          <strong>Zhi Wang&dagger;</strong>
-        </a>.
+        <strong style="color:#1EB6B3;">Jiajun Luo*</strong>,
+        <strong style="color:#1EB6B3;">Lizhuo Luo*</strong>,
+        <strong style="color:#1EB6B3;">Jianru Xu*</strong>,
+        <strong style="color:#1EB6B3;">Jiajun Song</strong>,
+        <strong style="color:#1EB6B3;">Rongwei Lu</strong>,
+        <strong style="color:#1EB6B3;">Chen Tang</strong>,
+        <strong style="color:#1EB6B3;">Zhi Wang&dagger;</strong>.
       </span>
       <span class="pub-list-note"></span>
       <span class="pub-list-links"><a href="https://arxiv.org/abs/2411.16786">[arXiv]</a><a href=" https://github.com/Cobalt-27/DICE">[code]</a></span>

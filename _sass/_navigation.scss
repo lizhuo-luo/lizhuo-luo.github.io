@@ -189,6 +189,14 @@
     }
   }
 
+  .masthead__menu-item--lg a {
+    color: $text-color;
+
+    &:hover {
+      color: mix(#000, $text-color, 25%);
+    }
+  }
+
   button {
     position: absolute;
     height: 2.5rem;
