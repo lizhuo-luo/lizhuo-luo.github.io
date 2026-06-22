@@ -67,7 +67,7 @@ Other Experience
       <div class="experience-info">
           <strong>SIGS, Tsinghua University</strong><br>
           <em>2024.08 - 2025.02</em><br>
-          Research Intern at MMLab@SIGS, Tsinghua University
+          Research Intern at MMLab@SIGS
       </div>
   </div>
 
@@ -226,7 +226,7 @@ Publications
           <strong>Xu Chen</strong>
         </a>.
       </span>
-      <span class="pub-list-note">.</span>
+      <span class="pub-list-note"></span>
       <span class="pub-list-links"><a href="https://arxiv.org/abs/2507.02620">[arXiv]</a><a href="https://github.com/Leosang-lx/FlowSpec">[code]</a></span>
     </li>
     <li>
