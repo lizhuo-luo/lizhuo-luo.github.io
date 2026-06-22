@@ -10,7 +10,7 @@ redirect_from:
 
 About Me
 ---
-I am an incoming Ph.D. student at the College of Computing and Data Science, Nanyang Technological University, supervised by Prof. [Tianwei Zhang](https://personal.ntu.edu.sg/tianwei.zhang/). My research interests lie in efficient AI algorithms and systems. Before that, I received my B.Sc. from the Southern University of Science and Technology (SUSTech).
+I am an incoming Ph.D. student at the College of Computing and Data Science, Nanyang Technological University, advised by Prof. [Tianwei Zhang](https://personal.ntu.edu.sg/tianwei.zhang/). My research interests lie in efficient AI algorithms and systems. Before that, I received my B.Sc. from the Southern University of Science and Technology (SUSTech).
 
 Feel free to reach out if you are interested in discussing research ideas or potential collaborations!
 
@@ -18,7 +18,7 @@ News
 ---------------
 <div class="news-box">
   <ul class="news-list">
-<li><span class="news-date"><em>2026.04</em></span> 🎉🎉 One first-author paper accepted by ICML26, see you in Seoul.</li>
+<li><span class="news-date"><em>2026.04</em></span> 🎉🎉 One first-author paper accepted by ICML 26, see you in Seoul.</li>
 <li><span class="news-date"><em>2025.08</em></span> 🎉🎉 I began my full-time RA at NTU.</li>
   </ul>
 </div>
