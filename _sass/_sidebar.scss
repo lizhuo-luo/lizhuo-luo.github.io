@@ -285,3 +285,31 @@
     padding-right: 0;
   }
 }
+
+.sidebar-stats {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid $border-color;
+  font-size: 0.85em;
+  color: $text-color;
+
+  .busuanzi-stats {
+    margin: 0 0 0.75rem 0;
+    line-height: 1.6;
+
+    span {
+      color: inherit;
+    }
+  }
+
+  .visitor-map {
+    text-align: center;
+
+    img,
+    canvas,
+    iframe {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
