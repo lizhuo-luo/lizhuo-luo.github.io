@@ -71,9 +71,14 @@
         color: #ca6f6f;
     }
     .experience-container {
-        display: flex;
-        flex-direction: column; /* Stack cards vertically. */
-        gap: 20px; /* Keep spacing between cards. */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two cards per row. */
+        gap: 20px;
+    }
+    @media (max-width: 600px) {
+        .experience-container {
+            grid-template-columns: 1fr; /* Stack on narrow screens. */
+        }
     }
     .experience-card {
         box-sizing: border-box;
