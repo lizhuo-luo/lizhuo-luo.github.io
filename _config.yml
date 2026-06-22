@@ -3,9 +3,9 @@ title                    : ""
 title_separator          : "-"
 name                     : "Lizhuo Luo"
 description              : &description "A clean academic homepage template."
-url                      : ""
+url                      : "https://lizhuo-luo.github.io"
 baseurl                  : ""
-repository               : ""
+repository               : "lizhuo-luo/lizhuo-luo.github.io"
 
 author:
   avatar           : "ai_llz.png"
