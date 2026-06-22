@@ -9,7 +9,7 @@ redirect_from:
 ---
 <h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> Welcome to my Homepage!</h1>
 
-I am an incoming Ph.D. student at the College of Computing and Data Science, Nanyang Technological University, supervised by Prof. Tianwei Zhang. My research interests lie in efficient AI algorithms and systems. Before that, I received my B.Sc. from the Southern University of Science and Technology (SUSTech).
+I am an incoming Ph.D. student at the College of Computing and Data Science, Nanyang Technological University, supervised by Prof. [Tianwei Zhang](https://personal.ntu.edu.sg/tianwei.zhang/). My research interests lie in efficient AI algorithms and systems. Before that, I received my B.Sc. from the Southern University of Science and Technology (SUSTech).
 
 News
 ---------------
@@ -54,7 +54,7 @@ Other Experience
       <img src="images/NTU.png" alt="NTU" class="experience-logo">
       <div class="experience-info">
           <strong>Nanyang Technologicai University</strong><br>
-          <em>2026.05 - Present</em><br>
+          <em>2026.05 - 2026.08</em><br>
           Research Assistant at Aumovio-NTU Corporate Lab
       </div>
   </div>
@@ -64,7 +64,7 @@ Other Experience
       <div class="experience-info">
           <strong>SIGS, Tsinghua University</strong><br>
           <em>2024.08 - 2025.02</em><br>
-          Research Intern at MMLab @ SIGS, Tsinghua University
+          Research Intern at MMLab@SIGS, Tsinghua University
       </div>
   </div>
 
@@ -96,7 +96,7 @@ Publications
           <strong>Yonggang Wen</strong>
         </a>,
         <a href="" target="_blank">
-          <strong>Tianwei Zhang&dagger</strong>
+          <strong>Tianwei Zhang&dagger;</strong>
         </a>.
       </i><br> 
       Dynamic Sliding Block (DSB), a training-free block scheduling method that uses a sliding block with a dynamic size to overcome the rigidity of the naive block; DSB Cache, a training-free KV-cache mechanism tailored to DSB, improves both generation quality and inference efficiency for dLLMs.
@@ -115,7 +115,7 @@ Publications
       <img src="images/DICE.png" alt="dice" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
     </div> 
     <div>
-      <strong>DSB: Dynamic Sliding Block Scheduling for Diffusion LLMs</strong><br>
+      <strong>DICE: Staleness-Centric Optimizations for Parallel Diffusion MoE Inference</strong><br>
       <i style="font-size: 13px;">
         <a href="" target="_blank">
           <strong>Jiajun Luo*</strong>
@@ -136,7 +136,7 @@ Publications
           <strong>Chen Tang</strong>
         </a>,
         <a href="" target="_blank">
-          <strong>Zhi Wang&dagger</strong>
+          <strong>Zhi Wang&dagger;</strong>
         </a>.
       </i><br> 
       DICE, an asynchronous expert-parallel framework for MoE-based diffusion models that overlaps communication and computation to realize faster, more scalable multi-GPU inference, achieving up to 1.26× speedup with minimal quality impact.
@@ -168,7 +168,7 @@ Publications
           <strong>Yonggang Wen</strong>
         </a>,
         <a href="" target="_blank">
-          <strong>Tianwei Zhang&dagger</strong>
+          <strong>Tianwei Zhang&dagger;</strong>
         </a>.
       </span>
       <span class="pub-list-note"></span>
@@ -197,7 +197,7 @@ Publications
           <strong>Wenya Wang</strong>
         </a>,
         <a href="" target="_blank">
-          <strong>Tianwei Zhang&dagger</strong>
+          <strong>Tianwei Zhang&dagger;</strong>
         </a>.
       </span>
       <span class="pub-list-note"></span>
@@ -214,7 +214,7 @@ Publications
           <strong>Lizhuo Luo*</strong>
         </a>,
         <a href="" target="_blank">
-          <strong>Ming Tang&dagger</strong>
+          <strong>Ming Tang&dagger;</strong>
         </a>,
         <a href="" target="_blank">
           <strong>Chao Huang</strong>
@@ -249,7 +249,7 @@ Publications
           <strong>Chen Tang</strong>
         </a>,
         <a href="" target="_blank">
-          <strong>Zhi Wang&dagger</strong>
+          <strong>Zhi Wang&dagger;</strong>
         </a>.
       </span>
       <span class="pub-list-note"></span>
