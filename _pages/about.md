@@ -96,7 +96,7 @@ Publications
       </i><br> 
       Dynamic Sliding Block (DSB), a training-free block scheduling method that uses a sliding block with a dynamic size to overcome the rigidity of the naive block; DSB Cache, a training-free KV-cache mechanism tailored to DSB, improves both generation quality and inference efficiency for dLLMs.
       <br> 
-      <b><i style="color:#83a1c7;">ICML 2026 &nbsp;
+      <b><i style="color:#1EB6B3;">ICML 2026 &nbsp;
       </i></b> 
       <a href="https://arxiv.org/abs/2602.05992"><em>[arXiv]</em></a> 
       <a href="https://github.com/lizhuo-luo/DSB"><em>[code]</em></a> 
@@ -122,7 +122,7 @@ Publications
       </i><br> 
       DICE, an asynchronous expert-parallel framework for MoE-based diffusion models that overlaps communication and computation to realize faster, more scalable multi-GPU inference, achieving up to 1.26× speedup with minimal quality impact.
       <br> 
-      <b><i style="color:#83a1c7;">ICCV 2025 &nbsp;
+      <b><i style="color:#1EB6B3;">ICCV 2025 &nbsp;
       </i></b> 
       <a href="https://arxiv.org/abs/2411.16786"><em>[arXiv]</em></a> 
       <a href="https://github.com/Cobalt-27/DICE"><em>[code]</em></a> 

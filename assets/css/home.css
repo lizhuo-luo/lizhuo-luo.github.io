@@ -36,7 +36,7 @@
       display: inline-block;
       min-width: 70px;
       font-weight: 400;
-      color: #F76C00;
+      color: #1EB6B3;
     }
   
     .experience-card {
@@ -195,7 +195,7 @@
         margin-bottom: 24px;
         scroll-behavior: smooth;
         scrollbar-width: thin;
-        scrollbar-color: rgba(185, 95, 61, 0.45) rgba(254, 245, 241, 0.7);
+        scrollbar-color: rgba(247, 108, 0, 0.45) rgba(254, 245, 241, 0.7);
     }
 
     #full-publications::-webkit-scrollbar {
@@ -208,12 +208,12 @@
     }
 
     #full-publications::-webkit-scrollbar-thumb {
-        background: rgba(185, 95, 61, 0.45);
+        background: rgba(247, 108, 0, 0.45);
         border-radius: 999px;
     }
 
     #full-publications::-webkit-scrollbar-thumb:hover {
-        background: rgba(185, 95, 61, 0.65);
+        background: rgba(247, 108, 0, 0.65);
     }
   
     .full-publication-list {
@@ -235,7 +235,7 @@
         border-radius: 999px;
         border: 1px solid rgba(245, 187, 167, 0.75);
         background: #fef5f1;
-        color: #b95f3d;
+        color: #F76C00;
         font-size: 11px;
         font-weight: 650;
         line-height: 1.35;
@@ -266,7 +266,7 @@
     }
 
     .pub-list-note {
-        color: #c7774c;
+        color: #F76C00;
         font-style: italic;
         font-weight: 650;
     }
@@ -277,12 +277,12 @@
 
     .pub-list-links a {
         margin-left: 4px;
-        color: #c7774c !important;
+        color: #F76C00 !important;
         font-weight: 600;
     }
 
       .pub-list-links a:hover {
-        color: #b65f36 !important;
+        color: #F76C00 !important;
     }
 
     /* Projects cards: keep styles independent from publications */
