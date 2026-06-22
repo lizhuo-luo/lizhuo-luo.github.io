@@ -1,15 +1,15 @@
 locale                   : "en-US"
-title                    : ""
+title                    : "Lizhuo Luo's Homepage"
 title_separator          : "-"
-name                     : "Lizhuo Luo"
-description              : &description "A clean academic homepage template."
+name                     : "Lizhuo Luo (罗立卓)"
+description              : &description "Hi there! This is Lizhuo Luo's Homepage"
 url                      : "https://lizhuo-luo.github.io"
 baseurl                  : ""
 repository               : "lizhuo-luo/lizhuo-luo.github.io"
 
 author:
   avatar           : "ai_llz.png"
-  name             : "Lizhuo Luo"
+  name             : "Lizhuo Luo (罗立卓)"
   pronouns         : "He/Him"
   bio              : 
   location         : "Singapore"
@@ -32,10 +32,10 @@ author:
   kaggle           :
   stackoverflow    :
 
-  WeChat           :
+  WeChat           : "/images/wechat-qr.png"
   linkedin         :
   bilibili         :
-  twitter          :
+  twitter          : "lzluo001"
   youtube          :
   zhihu            :
   XiaoHongShu      :
