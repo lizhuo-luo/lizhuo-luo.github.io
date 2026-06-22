@@ -36,7 +36,7 @@
       display: inline-block;
       min-width: 70px;
       font-weight: 400;
-      color: #ca6f6f;
+      color: #F76C00;
     }
   
     .experience-card {
@@ -68,7 +68,7 @@
     }
     .experience-info a {
         text-decoration: none;
-        color: #ca6f6f;
+        color: #F76C00;
     }
     .experience-container {
         display: grid;
@@ -134,9 +134,9 @@
     .pub-badge--oral {
         margin-left: 4px;
         vertical-align: 2px;
-        color: #4c6a94;
-        background: rgba(131, 161, 199, 0.14);
-        border-color: rgba(131, 161, 199, 0.35);
+        color: #1EB6B3;
+        background: rgba(30, 182, 179, 0.14);
+        border-color: rgba(30, 182, 179, 0.35);
     }
     .publication-card:hover {
        
@@ -179,9 +179,9 @@
     }
     
     .pub-button.active {
-        background-color: #ca6f6f;
+        background-color: #F76C00;
         color: white;
-        border-color: #ca6f6f;
+        border-color: #F76C00;
     }
 
       .publication-view[hidden] {
@@ -364,15 +364,15 @@
         .main-heading {
             font-family: 'Permanent Marker', cursive;
             text-align: center;
-            color: #ca6f6f;
+            color: #F76C00;
         }
         div.markdown-body a,a {
             text-decoration: none !important;
-            color: #ca6f6f;
+            color: #F76C00;
             transition: all 0.3s ease;
         }
         div.markdown-body a:hover, a:hover {
-            color: #c71585;
+            color: #1EB6B3;
             text-decoration: underline;
         }
 

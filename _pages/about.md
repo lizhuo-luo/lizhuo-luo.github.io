@@ -7,9 +7,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> Welcome to my Homepage!</h1>
 
+About Me
+---
 I am an incoming Ph.D. student at the College of Computing and Data Science, Nanyang Technological University, supervised by Prof. [Tianwei Zhang](https://personal.ntu.edu.sg/tianwei.zhang/). My research interests lie in efficient AI algorithms and systems. Before that, I received my B.Sc. from the Southern University of Science and Technology (SUSTech).
+
+Feel free to reach out if you are interested in discussing research ideas or potential collaborations!
 
 News
 ---------------
