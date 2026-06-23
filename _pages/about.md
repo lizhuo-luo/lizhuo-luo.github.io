@@ -57,7 +57,7 @@ Other Experience
       <img src="images/NTU.png" alt="NTU" class="experience-logo">
       <div class="experience-info">
           <strong>Nanyang Technologicai University</strong><br>
-          <em>2026.05 - 2026.08</em><br>
+          <em>2025.08 - 2026.08</em><br>
           Research Assistant at Aumovio-NTU Corporate Lab
       </div>
   </div>
