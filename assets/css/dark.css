@@ -1,0 +1,330 @@
+/* ==========================================================================
+   Dark mode
+   Activated by `<html data-theme="dark">` — set pre-paint in head.html and
+   toggled via the masthead button in scripts.html.
+   ========================================================================== */
+
+/* ---------- Theme toggle button (visible in both modes) ---------------- */
+.theme-toggle {
+    position: absolute;
+    top: 50%;
+    right: 1em;
+    transform: translateY(-50%);
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    border: 1px solid #ddd;
+    border-radius: 999px;
+    background: transparent;
+    color: #5f6368;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    font-size: 15px;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+    z-index: 30;
+}
+
+.theme-toggle:hover {
+    color: #F76C00;
+    border-color: #F76C00;
+}
+
+.theme-toggle__icon {
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+}
+
+[data-theme="light"] .theme-toggle__icon--light,
+:root:not([data-theme="dark"]) .theme-toggle__icon--light {
+    display: none;
+}
+
+[data-theme="dark"] .theme-toggle__icon--dark {
+    display: none;
+}
+
+/* ---------- Global dark surfaces --------------------------------------- */
+[data-theme="dark"] body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+}
+
+[data-theme="dark"] .masthead {
+    background: #0d1117;
+    border-bottom: 1px solid #21262d;
+}
+
+[data-theme="dark"] .greedy-nav {
+    background: #0d1117;
+}
+
+[data-theme="dark"] .greedy-nav .masthead__menu-item--lg a {
+    color: #e6edf3;
+}
+
+[data-theme="dark"] .greedy-nav .masthead__menu-item--lg a:hover {
+    color: #ffffff;
+}
+
+[data-theme="dark"] .greedy-nav .hidden-links {
+    background: #161b22;
+    border-color: #30363d;
+}
+
+[data-theme="dark"] .greedy-nav .hidden-links:after {
+    border-color: #161b22 transparent;
+}
+
+[data-theme="dark"] .greedy-nav .hidden-links li {
+    border-bottom-color: #21262d;
+}
+
+[data-theme="dark"] .theme-toggle {
+    color: #c9d1d9;
+    border-color: #30363d;
+}
+
+[data-theme="dark"] .theme-toggle:hover {
+    color: #F76C00;
+    border-color: #F76C00;
+}
+
+/* ---------- Sidebar ---------------------------------------------------- */
+[data-theme="dark"] .author__avatar img {
+    border-color: #30363d;
+}
+
+[data-theme="dark"] .author__name,
+[data-theme="dark"] .author__bio,
+[data-theme="dark"] .author__pronouns {
+    color: #e6edf3;
+}
+
+[data-theme="dark"] .author__urls a,
+[data-theme="dark"] .author__urls span {
+    color: #c9d1d9;
+}
+
+[data-theme="dark"] .author__urls a:hover {
+    color: #F76C00;
+}
+
+[data-theme="dark"] .sidebar-stats {
+    color: #8b949e;
+    border-top-color: #30363d;
+}
+
+/* ---------- Page chrome ------------------------------------------------ */
+[data-theme="dark"] .page__title,
+[data-theme="dark"] h1, [data-theme="dark"] h2, [data-theme="dark"] h3,
+[data-theme="dark"] h4, [data-theme="dark"] h5, [data-theme="dark"] h6 {
+    color: #e6edf3;
+}
+
+[data-theme="dark"] .main-heading {
+    color: #F76C00;
+}
+
+[data-theme="dark"] hr {
+    border-color: #30363d;
+}
+
+[data-theme="dark"] blockquote {
+    color: #c9d1d9;
+    border-left-color: #30363d;
+}
+
+[data-theme="dark"] code,
+[data-theme="dark"] pre,
+[data-theme="dark"] tt {
+    background-color: #161b22;
+    color: #e6edf3;
+}
+
+/* ---------- News box --------------------------------------------------- */
+[data-theme="dark"] .news-box {
+    background: #161b22;
+    color: #c9d1d9;
+}
+
+[data-theme="dark"] .news-list li {
+    color: #c9d1d9;
+}
+
+/* ---------- Experience cards ------------------------------------------- */
+[data-theme="dark"] .experience-card {
+    background: #161b22;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="dark"] .experience-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.55);
+}
+
+[data-theme="dark"] .experience-info {
+    color: #c9d1d9;
+}
+
+[data-theme="dark"] .experience-info strong {
+    color: #e6edf3;
+}
+
+/* ---------- Publication cards ----------------------------------------- */
+[data-theme="dark"] .publication-card,
+[data-theme="dark"] .project-card {
+    background: #161b22;
+    border-color: #30363d;
+    color: #c9d1d9;
+}
+
+[data-theme="dark"] .publication-card > div > strong,
+[data-theme="dark"] .publication-card > div > div > strong,
+[data-theme="dark"] .project-card > div > strong,
+[data-theme="dark"] .project-card > div > div > strong {
+    color: #e6edf3;
+}
+
+[data-theme="dark"] .publication-card i,
+[data-theme="dark"] .project-card i {
+    color: #8b949e;
+}
+
+[data-theme="dark"] .publication-card:hover,
+[data-theme="dark"] .project-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.55);
+}
+
+[data-theme="dark"] .publication-card.featured {
+    background: #1f1611;
+    border-color: rgba(247, 108, 0, 0.55);
+    box-shadow: 0 4px 12px rgba(247, 108, 0, 0.15);
+}
+
+[data-theme="dark"] .publication-card.featured:hover {
+    box-shadow: 0 8px 20px rgba(247, 108, 0, 0.25);
+}
+
+[data-theme="dark"] .pub-badge {
+    background: rgba(139, 148, 158, 0.18);
+    color: #c9d1d9;
+}
+
+[data-theme="dark"] .pub-badge--oral {
+    color: #5ee2df;
+    background: rgba(30, 182, 179, 0.18);
+    border-color: rgba(30, 182, 179, 0.45);
+}
+
+/* ---------- Publication list ------------------------------------------ */
+[data-theme="dark"] #full-publications {
+    scrollbar-color: rgba(247, 108, 0, 0.55) rgba(22, 27, 34, 0.85);
+}
+
+[data-theme="dark"] #full-publications::-webkit-scrollbar-track {
+    background: rgba(22, 27, 34, 0.85);
+}
+
+[data-theme="dark"] .full-publication-list {
+    color: #c9d1d9;
+}
+
+[data-theme="dark"] .full-publication-list .pub-list-title {
+    color: #e6edf3;
+}
+
+[data-theme="dark"] .pub-list-authors {
+    color: #8b949e;
+}
+
+[data-theme="dark"] .pub-list-authors > strong {
+    color: #e6edf3;
+}
+
+[data-theme="dark"] .pub-list-badge {
+    background: rgba(247, 108, 0, 0.15);
+    border-color: rgba(247, 108, 0, 0.45);
+    color: #FFB37A;
+}
+
+[data-theme="dark"] .pub-list-note {
+    color: #FFB37A;
+}
+
+/* ---------- Pub filter buttons ---------------------------------------- */
+[data-theme="dark"] .pub-button {
+    background-color: #161b22;
+    border-color: #30363d;
+    color: #c9d1d9;
+}
+
+[data-theme="dark"] .pub-button:hover {
+    background-color: #21262d;
+}
+
+[data-theme="dark"] .pub-button.active {
+    background-color: #F76C00;
+    border-color: #F76C00;
+    color: #fff;
+}
+
+/* ---------- Author-name inline strong (was #1EB6B3 in light) --------- */
+[data-theme="dark"] strong[style*="#1EB6B3"] {
+    color: #5ee2df !important;
+}
+
+/* ---------- Links ----------------------------------------------------- */
+[data-theme="dark"] a,
+[data-theme="dark"] div.markdown-body a {
+    color: #F76C00;
+}
+
+[data-theme="dark"] a:hover,
+[data-theme="dark"] div.markdown-body a:hover {
+    color: #FFB37A;
+}
+
+/* ---------- Blog list ------------------------------------------------- */
+[data-theme="dark"] .blog-entry {
+    background: #161b22;
+    border-color: #30363d;
+}
+
+[data-theme="dark"] .blog-entry:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.55);
+}
+
+[data-theme="dark"] .blog-entry__title a {
+    color: #e6edf3;
+}
+
+[data-theme="dark"] .blog-entry__title a:hover {
+    color: #F76C00;
+}
+
+[data-theme="dark"] .blog-entry__meta {
+    color: #8b949e;
+}
+
+[data-theme="dark"] .blog-entry__tag {
+    background: rgba(247, 108, 0, 0.15);
+    color: #FFB37A;
+}
+
+[data-theme="dark"] .blog-entry__excerpt {
+    color: #c9d1d9;
+}
+
+/* ---------- Smooth transition when toggling --------------------------- */
+[data-theme="dark"] body,
+[data-theme="dark"] .masthead,
+[data-theme="dark"] .experience-card,
+[data-theme="dark"] .publication-card,
+[data-theme="dark"] .project-card,
+[data-theme="dark"] .blog-entry,
+[data-theme="dark"] .news-box {
+    transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}

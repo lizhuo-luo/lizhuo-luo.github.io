@@ -37,5 +37,51 @@
 })();
 </script>
 
+<script>
+(function() {
+  function currentTheme() {
+    return document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+  }
+
+  function applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    var button = document.getElementById('theme-toggle');
+    if (button) {
+      button.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
+    }
+  }
+
+  function init() {
+    applyTheme(currentTheme());
+    var button = document.getElementById('theme-toggle');
+    if (button) {
+      button.addEventListener('click', function() {
+        var next = currentTheme() === 'dark' ? 'light' : 'dark';
+        try { localStorage.setItem('theme', next); } catch (e) {}
+        applyTheme(next);
+      });
+    }
+
+    if (window.matchMedia) {
+      var media = window.matchMedia('(prefers-color-scheme: dark)');
+      var listener = function(event) {
+        try {
+          if (localStorage.getItem('theme')) return;
+        } catch (e) {}
+        applyTheme(event.matches ? 'dark' : 'light');
+      };
+      if (media.addEventListener) media.addEventListener('change', listener);
+      else if (media.addListener) media.addListener(listener);
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
+
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
