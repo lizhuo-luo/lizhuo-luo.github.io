@@ -99,7 +99,7 @@ Publications
         <strong style="color:#1EB6B3;">Wenya Wang</strong>,
         <strong style="color:#1EB6B3;">Tianwei Zhang&dagger;</strong>.
       </i><br> 
-      DAWN, a training-free, dependency-aware method for fast inference of diffusion LLMs.
+      DAWN, a training-free, dependency-aware method for fast inference of diffusion LLMs. DAWN speedups the inference by 1.80 - 8.06× over baselines while preserving the generation quality.
       <br> 
       <b><i style="color:#1EB6B3;">NeurIPS 2026 &nbsp;
       </i></b> 
@@ -109,7 +109,6 @@ Publications
   </div> 
 </div>
 
-<div id="core-publications" class="publication-view" data-publication-view="core">
 <div class="publication-card" data-category="all"> 
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
@@ -217,7 +216,7 @@ Publications
         <strong style="color:#1EB6B3;">Zhi Wang&dagger;</strong>.
       </span>
       <span class="pub-list-note"></span>
-      <span class="pub-list-links"><a href="https://arxiv.org/abs/2411.16786">[arXiv]</a><a href=" https://github.com/Cobalt-27/DICE">[code]</a></span>
+      <span class="pub-list-links"><a href="https://arxiv.org/abs/2411.16786">[arXiv]</a><a href="https://github.com/Cobalt-27/DICE">[code]</a></span>
     </li>
   </ul>
 </div>
