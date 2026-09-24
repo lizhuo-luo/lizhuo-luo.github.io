@@ -18,8 +18,9 @@ News
 ---------------
 <div class="news-box">
   <ul class="news-list">
+<li><span class="news-date"><em>2026.09</em></span> 🎉🎉 One first-author paper accepted by NeurIPS 26, see you in Sydney!</li>
 <li><span class="news-date"><em>2026.08</em></span> Started my Ph.D. at NTU.</li>
-<li><span class="news-date"><em>2026.04</em></span> 🎉🎉 One first-author paper accepted by ICML 26, see you in Seoul.</li>
+<li><span class="news-date"><em>2026.04</em></span> 🎉🎉 One first-author paper accepted by ICML 26, see you in Seoul!</li>
 <li><span class="news-date"><em>2025.08</em></span> I began my full-time RA at NTU.</li>
   </ul>
 </div>
@@ -85,6 +86,33 @@ Publications
 <div class="publication-card" data-category="all"> 
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
+      <img src="images/DAWN.png" alt="dawn" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
+    </div> 
+    <div>
+      <strong>DAWN: Dependency-Aware Fast Inference for Diffusion LLMs</strong><br>
+      <i style="font-size: 13px;">
+        <strong style="color:#1EB6B3;">Lizhuo Luo</strong>,
+        <strong style="color:#1EB6B3;">Zhuoran Shi</strong>,
+        <strong style="color:#1EB6B3;">Jiajun Luo</strong>,
+        <strong style="color:#1EB6B3;">Zhi Wang</strong>,
+        <strong style="color:#1EB6B3;">Shen Ren</strong>,
+        <strong style="color:#1EB6B3;">Wenya Wang</strong>,
+        <strong style="color:#1EB6B3;">Tianwei Zhang&dagger;</strong>.
+      </i><br> 
+      DAWN, a training-free, dependency-aware method for fast inference of diffusion LLMs.
+      <br> 
+      <b><i style="color:#1EB6B3;">NeurIPS 2026 &nbsp;
+      </i></b> 
+      <a href="https://arxiv.org/abs/2602.06953"><em>[arXiv]</em></a> 
+      <a href="https://github.com/lizhuo-luo/DAWN"><em>[code]</em></a> 
+    </div>
+  </div> 
+</div>
+
+<div id="core-publications" class="publication-view" data-publication-view="core">
+<div class="publication-card" data-category="all"> 
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
       <img src="images/DSB.png" alt="dsb" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
     </div> 
     <div>
@@ -137,19 +165,7 @@ Publications
 <div id="full-publications" class="publication-view" data-publication-view="list" hidden>
   <ul class="full-publication-list">
     <li>
-      <span class="pub-list-badge">ICML 2026</span>
-      <span class="pub-list-title">DSB: Dynamic Sliding Block Scheduling for Diffusion LLMs</span><br>
-      <span class="pub-list-authors">
-        <strong style="color:#1EB6B3;">Lizhuo Luo*</strong>,
-        <strong style="color:#1EB6B3;">Shenggui Li*</strong>,
-        <strong style="color:#1EB6B3;">Yonggang Wen</strong>,
-        <strong style="color:#1EB6B3;">Tianwei Zhang&dagger;</strong>.
-      </span>
-      <span class="pub-list-note"></span>
-      <span class="pub-list-links"><a href="https://arxiv.org/abs/2602.05992">[arXiv]</a><a href="https://github.com/lizhuo-luo/DSB">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">Arxiv 2026</span>
+      <span class="pub-list-badge">NeurIPS 2026</span>
       <span class="pub-list-title">DAWN: Dependency-Aware Fast Inference for Diffusion LLMs</span><br>
       <span class="pub-list-authors">
         <strong style="color:#1EB6B3;">Lizhuo Luo</strong>,
@@ -162,6 +178,18 @@ Publications
       </span>
       <span class="pub-list-note"></span>
       <span class="pub-list-links"><a href="https://arxiv.org/abs/2602.06953">[arXiv]</a><a href="https://github.com/lizhuo-luo/DAWN">[code]</a></span>
+    </li>
+    <li>
+      <span class="pub-list-badge">ICML 2026</span>
+      <span class="pub-list-title">DSB: Dynamic Sliding Block Scheduling for Diffusion LLMs</span><br>
+      <span class="pub-list-authors">
+        <strong style="color:#1EB6B3;">Lizhuo Luo*</strong>,
+        <strong style="color:#1EB6B3;">Shenggui Li*</strong>,
+        <strong style="color:#1EB6B3;">Yonggang Wen</strong>,
+        <strong style="color:#1EB6B3;">Tianwei Zhang&dagger;</strong>.
+      </span>
+      <span class="pub-list-note"></span>
+      <span class="pub-list-links"><a href="https://arxiv.org/abs/2602.05992">[arXiv]</a><a href="https://github.com/lizhuo-luo/DSB">[code]</a></span>
     </li>
     <li>
       <span class="pub-list-badge">Arxiv 2025</span>
